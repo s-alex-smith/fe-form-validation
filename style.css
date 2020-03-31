@@ -1,0 +1,13 @@
+body {
+  background-color: azure;
+  font-size: 20px;
+  text-align: center;
+}
+
+.invalid {
+  background-color: firebrick;
+}
+
+.valid {
+  background-color: lightgreen;
+}
