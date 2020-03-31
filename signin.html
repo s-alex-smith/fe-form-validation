@@ -13,13 +13,16 @@
       <h2>Please sign in to continue.</h2>
     </header>
     <form action="main.html" method="GET">
-      <label> Username: <input type="text" id="username" /> </label>
+      <label> Username: <input type="text" id="username"/></label>
 
-      <label> First name: <input type="text" /> </label>
+      <label> First name: <input type="text" id="firstName"/></label>
 
-      <label> Last name: <input type="text" /> </label>
+      <label> Last name: <input type="text" id="lastName"/></label>
 
-      <label> Date of birth: <input type="date" /> </label>
+      <label>
+        Date of birth:
+        <input type="date" id="dob" min="1900-01-01" max="3000-01-01"
+      /></label>
 
       <button>Sign in</button>
     </form>
